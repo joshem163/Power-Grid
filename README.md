@@ -13,7 +13,4 @@ MP-Grid is an innovative machine learning model for outage detection in smart gr
  Three small datasets (37 BUs, 123 BUS, and 342 BUS) and two big datasets (8500 BUS and Sanfransisco ) have been used in this experiment.
  
 # Runing the Experiments
-1. Execute all cell of notebook to run the experiment:
-2. Make sure to maintain the sequential order of execution as specified in the code.
-3. Follow the prompts or instructions provided by the code to proceed with the experiment.
-4. For Sanfransisco datasets, the final feature vectors will be saved as CSV files in the same directory for future.
+Run the appropriate training script (e.g., train_MPgrid.py) with the correct data path to reproduce the results.
