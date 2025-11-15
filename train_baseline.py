@@ -97,7 +97,7 @@ if __name__ == "__main__":
     parser.add_argument('--model', type=str, choices=['GCN', 'SAGE', 'GAT', 'GIN', 'all'], default='all',
                         help='Type of GNN model to use or "all" to run all models')
     parser.add_argument('--hidden_dim', type=int, default=64, help='Hidden layer dimension')
-    parser.add_argument('--epochs', type=int, default=2, help='Number of training epochs')
+    parser.add_argument('--epochs', type=int, default=600, help='Number of training epochs')
     parser.add_argument('--batch_size', type=int, default=32, help='Batch size')
     parser.add_argument('--folds', type=int, default=10, help='Number of folds for cross-validation')
     parser.add_argument('--lr', type=float, default=0.001, help='Learning rate')
